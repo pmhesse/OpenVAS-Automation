@@ -7,17 +7,12 @@ if [[ $EUID -ne 0 ]]; then
   exit 1
 fi
 
-openvas-mkcert
+
 ldconfig
 openvassd
 openvas-nvt-sync
 openvas-scapdata-sync
 openvas-certdata-sync
-openvasmd --create-user=admin --role=Admin
-echo __________________________________________
-read -p "pausing to allow you to copy the password. Hit [enter]..."
-echo __________________________________________
-openvas-mkcert-client -n -i
 openvasmd --rebuild --progress
 openvasmd
 gsad
