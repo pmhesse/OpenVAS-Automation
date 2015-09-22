@@ -69,4 +69,4 @@ apt-get install apt-get install build-essential bison flex cmake pkg-config libg
 ./buildopenvascomponent.sh $SCANNER
 ./buildopenvascomponent.sh $MANAGER
 ./buildopenvascomponent.sh $GSAD
-./buildopenvascomponent.sh $CLI
+#./buildopenvascomponent.sh $CLI
