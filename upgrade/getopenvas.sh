@@ -10,20 +10,20 @@ fi
 ## begin update area
 ## NOTE: you also have to update the URLs with the latest versions manually
 
-LIBRARIES=openvas-libraries-libraries-8.0.4
-LIBRARIESURL=http://wald.intevation.org/frs/download.php/2125/openvas-libraries-8.0.4.tar.gz
+LIBRARIES=openvas-libraries-8.0.5
+LIBRARIESURL=http://wald.intevation.org/frs/download.php/2125/openvas-libraries-8.0.5.tar.gz
 
 SCANNER=openvas-scanner-5.0.4
 SCANNERURL=http://wald.intevation.org/frs/download.php/2129/openvas-scanner-5.0.4.tar.gz
 
-MANAGER=openvas-manager-6.0.5
-MANAGERURL=http://wald.intevation.org/frs/download.php/2169/openvas-manager-6.0.5.tar.gz
+MANAGER=openvas-manager-6.0.6
+MANAGERURL=http://wald.intevation.org/frs/download.php/2169/openvas-manager-6.0.6.tar.gz
 
-GSAD=greenbone-security-assistant-6.0.5
-GSADURL=http://wald.intevation.org/frs/download.php/2173/greenbone-security-assistant-6.0.5.tar.gz
+GSAD=greenbone-security-assistant-6.0.6
+GSADURL=http://wald.intevation.org/frs/download.php/2173/greenbone-security-assistant-6.0.6.tar.gz
 
-CLI=openvas-cli-1.4.2
-CLIURL=http://wald.intevation.org/frs/download.php/2141/openvas-cli-1.4.2.tar.gz
+CLI=openvas-cli-1.4.3
+CLIURL=http://wald.intevation.org/frs/download.php/2141/openvas-cli-1.4.3.tar.gz
 
 ## end update area
 #####################################################################
